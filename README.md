@@ -41,7 +41,7 @@ ls
 Type some Linux commands in the CLI.
 NOTE: Linux is case sensitive so uppercase and lowercase letters are different.
 
-# Display Linux system information:```
+# Display Linux system information:
 
 ```
 uname

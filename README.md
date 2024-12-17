@@ -1,4 +1,4 @@
-# intro-to-linux-on-palmetto2
+# lab-intro-to-linux-on-palmetto2
 
 Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.neweggbusiness.com/smartbuyer/buying-guides/building-pc-ultimate-beginners-guide-part-1/).
 

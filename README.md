@@ -9,7 +9,7 @@ In this lab, you will remotely access the Palmetto2 computer cluster.  You will 
 # Task A: Accessing the cluster.
 
 * Open a web browser (Chrome, Safari, Edge, etc.) and go the the Clemson Ondemand site:  [Palmetto2](https://ondemand.rcd.clemson.edu)
-* Start an interactive apps>>Jupyter Notebook session.  Change these resource allocations: CPU=4, memory=64GB, Number of Hours = 12. This will create a 12 hour interactive session and allow you to interface with the cluster. When you launch new sessions, you can change the resource allocation if necessary.
+* Start an interactive apps>>Jupyter Notebook session.  Change these resource allocations: CPU=4, memory=64GB, Number of Hours=12. This will create a 12 hour interactive session and allow you to interface with the cluster. When you launch new sessions, you can change the resource allocation if necessary.
 * Once launched, open a terminal to interact with the cluster in the bash environment using a CLI.
 
 # Task B: Trying out basic linux commands.
@@ -123,9 +123,10 @@ NOTE: Removing files in Linux can be dangerous. You will not be able to undo a d
 df -h
 ```
 
-# Display free and used RAM memory ( -h for human readable, -m for MB, -g for GB.):
+# Display free and used RAM memory:
 ```
 free -h
+#( -h for human readable, -m for MB, -g for GB.)
 ```
 
 # Display and manage the top running processes:

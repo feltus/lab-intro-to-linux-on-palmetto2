@@ -146,9 +146,11 @@ exit
 # Create a working directory in scratch space on Palmetto.
 Note:  When doing work on a shared cluster like Palmetto, always start by creating a working directory in the 'scratch space' and not your home directory.   Scratch space is a huge space to do work but it is temporary storage.  All files will be deleted in 30 days if they have not been accessed.  Scratch space is located in:
 
-'''
+```
 /scratch/<USERNAME>/
+```
 
+```
 #Example
 cd /scratch/<USERNAME>
 mkdir seqsquirt_project_2025-12-13

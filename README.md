@@ -150,8 +150,7 @@ Note:  When doing work on a shared cluster like Palmetto, always start by creati
 /scratch/<USERNAME>/
 
 #Example
-cd /scratch/jdoe
-```
+cd /scratch/<USERNAME>
 mkdir seqsquirt_project_2025-12-13
 '''
 

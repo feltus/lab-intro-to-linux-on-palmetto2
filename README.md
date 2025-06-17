@@ -1,8 +1,9 @@
 # lab-intro-to-linux-on-palmetto2
 
-# Overview
+# Computational Lab: Introduction to Linux and the Palmetto2 Cluster
 
-By completing this assignment, you will:Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide).
+# Overview
+Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide).
 
 The most popular OS’s include macOS, Windows, Linux, and Android. All four have graphical user interfaces (GUIs) that allow users to open windows and click on graphical icons to interact with the computer. Another way to interact with a computer is with the command line interface (CLI) where commands are typed as text. The command line is a powerful environment to process a lot of data using text commands. Once you get the hang of it, you may find that GUIs sometimes get in the way when you are doing Digital Biology!
 

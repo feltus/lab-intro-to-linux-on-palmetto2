@@ -1,6 +1,6 @@
 # lab-intro-to-linux-on-palmetto2
 
-# Computational Lab: Introduction to Linux and the Palmetto2 Cluster
+# Computational Assignment: Introduction to Linux and the Palmetto2 Cluster
 
 # Overview
 Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide).
@@ -169,7 +169,7 @@ mkdir seqsquirt_project_2025-12-13
 Download and uncompress the sea squirt (Ciona intestinalis) genome file in this working directory.  Look at the top and bottom of the file using the command line.
 
 # Deliverables
-1. A text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
+1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
 
 # Submission Instructions
 * Submit your text file as a single compressed file (e.g. gzip).

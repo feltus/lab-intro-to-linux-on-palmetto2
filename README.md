@@ -9,7 +9,7 @@ The most popular OS’s include macOS, Windows, Linux, and Android. All four hav
 
 In this lab, you will remotely access the Palmetto2 computer cluster.  You will access Palmetto2 using the Open Ondemand software tool.
 
-# Learning Objectives
+# Learning Objectives 
 * Access the Palmetto2 High Performance Computer (HPC) Cluster
 * Navigate Linux file system on Palmetto2
 * Download a genome sequence

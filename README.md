@@ -175,11 +175,12 @@ Use a Linux command to look at the top and bottom of the file using the command 
 
 
 # Deliverables
-1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
+1. Create a compressed text file that contains the first 10 and last 10 lines of the sea squirt genome sequence.
 
 # Evaluation Criteria
-* Correct implementation of data retrieval from ENSEMBL (25%)
-* Correct lines in the text file (75%)
+* Correct implementation of genome file retrieval (25%)
+* Text file is compressed (25%)
+* Correct genome lines in the text file (50%)
 
 # Submission Instructions
 * Submit your text file as a single compressed file (e.g. gzip).

@@ -167,18 +167,14 @@ cd /scratch/<USERNAME>
 mkdir seqsquirt_project_2025-12-13
 ```
 
-Download and uncompress the sea squirt (Ciona intestinalis) genome file in this working directory.  Use a Linux command to look at the top and bottom of the file using the command line. You can copy/paste the lines in the file into a "plain text" file as opposed to a word processer document.  
-
-Here is a generative AI prompt to explain the concept of plain text files:
+Download and uncompress the sea squirt (Ciona intestinalis) genome file using the 'wget' command in this working directory.  Hee is the URL for the file:
 
 ```
-I'm starting computational biology work and need to understand text file basics better. Could you explain:
-1. What makes a file "plain text" and why this format is essential for bioinformatics data
-2. How to create and edit text files using command-line editors (nano, vim) in Linux environments
-3. How to generate text files using bash redirection operators (>, >>, <<) with practical examples
-4. Key differences in working with text files across Windows, macOS, and Linux platforms
-5. Best practices for text file management in collaborative bioinformatics projects
-Please include specific commands and examples relevant to genomic data workflows.
+http://hgdownload.soe.ucsc.edu/goldenPath/ci3/bigZips/ci3.fa.gz
+```
+
+Use a Linux command to look at the top and bottom of the file using the command line. You can copy/paste the lines in the file into a "plain text" file or use a redirect ('>') on the command line.  
+
 ```
 
 # Deliverables
@@ -191,7 +187,3 @@ Please include specific commands and examples relevant to genomic data workflows
 # Submission Instructions
 * Submit your text file as a single compressed file (e.g. gzip).
 * Late submissions will be subject to the policy in the syllabus.
-
-### **Useful Resources:**
-- [ENSEMBL Database](https://www.ensembl.org/)
-- [Palmetto2 User Guide](https://docs.rcd.clemson.edu/palmetto/)

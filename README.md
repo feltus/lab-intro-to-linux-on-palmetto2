@@ -173,7 +173,6 @@ http://hgdownload.soe.ucsc.edu/goldenPath/ci3/bigZips/ci3.fa.gz
 
 Use a Linux command to look at the top and bottom of the file using the command line. You can copy/paste the lines in the file into a "plain text" file or use a redirect ('>') on the command line.  
 
-```
 
 # Deliverables
 1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.

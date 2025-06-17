@@ -157,6 +157,7 @@ mkdir seqsquirt_project_2025-12-13
 '''
 
 Download and uncompress the sea squirt (Ciona intestinalis) genome file in this working directory.  Look at the top and bottom of the file using the command line.
+'''
 
 # Deliverables
 1. A text file that contains the first 10 and last 10 lines of the seqsuirt genome file.

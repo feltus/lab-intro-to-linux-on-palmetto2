@@ -1,14 +1,23 @@
 # lab-intro-to-linux-on-palmetto2
 
-Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide).
+# Overview
+
+By completing this assignment, you will:Linux is an operating system (OS) that allows software applications to run on computer hardware that consists of a motherboard, random access memory (RAM), central processing units (CPUs), graphics processing units (GPUs), disk storage, network interface cards (NICs), input devices (e.g. keyboard and mouse), and output devices (e.g. screens and printers). Click here for a great overview of [how a computer works](https://www.tutorialspoint.com/basics_of_computers/index.htm) and [how to build your own computer](https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide).
 
 The most popular OS’s include macOS, Windows, Linux, and Android. All four have graphical user interfaces (GUIs) that allow users to open windows and click on graphical icons to interact with the computer. Another way to interact with a computer is with the command line interface (CLI) where commands are typed as text. The command line is a powerful environment to process a lot of data using text commands. Once you get the hang of it, you may find that GUIs sometimes get in the way when you are doing Digital Biology!
 
 In this lab, you will remotely access the Palmetto2 computer cluster.  You will access Palmetto2 using the Open Ondemand software tool.
 
-# Part 1: Accessing the cluster.
+# Learning Objectives
+* Access the Palmetto2 High Performance Computer (HPC) Cluster
+* Navigate Linux file system on Palmetto2
+* Download a genome sequence
+vCompress/uncompress text files
+* Interact with text files
 
-* Open a web browser (Chrome, Safari, Edge, etc.) and go the the Clemson Ondemand site:  [Palmetto2](https://ondemand.rcd.clemson.edu)
+# Part 1: Accessing the cluster.
+* You have been granted a full feature educational account on the Palmetto2 cluster.
+* To access the remote comuter, open a web browser (Chrome, Safari, Edge, etc.) and go the the Clemson Ondemand site:  [Palmetto2](https://ondemand.rcd.clemson.edu)
 * Start an interactive apps>>Jupyter Notebook session.  Change these resource allocations: CPU=4, memory=64GB, Number of Hours=12. This will create a 12 hour interactive session and allow you to interface with the cluster. When you launch new sessions, you can change the resource allocation if necessary.
 * Once launched, open a terminal to interact with the cluster in the bash environment using a CLI.
 
@@ -142,7 +151,7 @@ NOTE: If you want to exit a program on the command line, press (CTRL + C) at the
 exit
 ```
 
-# Task C: Starting a new project on Palmetto.
+# Part 3: Starting a new project on Palmetto.
 # Create a working directory in scratch space on Palmetto.
 Note:  When doing work on a shared cluster like Palmetto, always start by creating a working directory in the 'scratch space' and not your home directory.   Scratch space is a huge space to do work but it is temporary storage.  All files will be deleted in 30 days if they have not been accessed.  Scratch space is located in:
 

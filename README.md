@@ -1,4 +1,4 @@
-# lab-intro-to-linux-on-palmetto2
+# lab-intro-to-linux-on-palmetto2 
  
 # Computational Assignment: Introduction to Linux and the Palmetto2 Cluster
 

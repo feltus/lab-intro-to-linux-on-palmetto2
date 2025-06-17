@@ -40,6 +40,7 @@ Uncompress the file with this command:
 
 ```
 gunzip ci3.fa.gz
+# Note you can compress a file with the gzip command
 ```
 
 See the new name of the file with this command:
@@ -166,10 +167,26 @@ cd /scratch/<USERNAME>
 mkdir seqsquirt_project_2025-12-13
 ```
 
-Download and uncompress the sea squirt (Ciona intestinalis) genome file in this working directory.  Look at the top and bottom of the file using the command line.
+Download and uncompress the sea squirt (Ciona intestinalis) genome file in this working directory.  Use a Linux command to look at the top and bottom of the file using the command line. You can copy/paste the lines in the file into a "plain text" file as opposed to a word processer document.  
+
+Here is a generative AI prompt to explain the concept of plain text files:
+
+```
+I'm starting computational biology work and need to understand text file basics better. Could you explain:
+1. What makes a file "plain text" and why this format is essential for bioinformatics data
+2. How to create and edit text files using command-line editors (nano, vim) in Linux environments
+3. How to generate text files using bash redirection operators (>, >>, <<) with practical examples
+4. Key differences in working with text files across Windows, macOS, and Linux platforms
+5. Best practices for text file management in collaborative bioinformatics projects
+Please include specific commands and examples relevant to genomic data workflows.
+```
 
 # Deliverables
 1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
+
+# Evaluation Criteria
+* Correct implementation of data retrieval from ENSEMBL (25%)
+* Correct lines in the text file (75%)
 
 # Submission Instructions
 * Submit your text file as a single compressed file (e.g. gzip).

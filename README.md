@@ -9,7 +9,7 @@ The most popular OS’s include macOS, Windows, Linux, and Android. All four hav
 
 In this lab, you will remotely access the Palmetto2 computer cluster.  You will access Palmetto2 using the Open Ondemand software tool.
 
-# Learning Objectives 
+# Learning Objectives
 * Access the Palmetto2 High Performance Computer (HPC) Cluster
 * Navigate Linux file system on Palmetto2
 * Download a genome sequence
@@ -178,7 +178,7 @@ Use a Linux command to look at the top and bottom of the file using the command 
 ```
 
 # Deliverables
-1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
+1. Submit your a text file that contains the first 10 and last 10 lines of the sea squirt genome sequence.
 
 # Evaluation Criteria
 * Correct implementation of data retrieval from ENSEMBL (25%)

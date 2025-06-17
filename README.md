@@ -11,17 +11,17 @@ In this lab, you will remotely access the Palmetto2 computer cluster.  You will 
 * Access the Palmetto2 High Performance Computer (HPC) Cluster
 * Navigate Linux file system on Palmetto2
 * Download a genome sequence
-vCompress/uncompress text files
+* Compress/uncompress text files
 * Interact with text files
 
 # Part 1: Accessing the cluster.
 * You have been granted a full feature educational account on the Palmetto2 cluster.
-* To access the remote comuter, open a web browser (Chrome, Safari, Edge, etc.) and go the the Clemson Ondemand site:  [Palmetto2](https://ondemand.rcd.clemson.edu)
+* To access the remote computer, open a web browser (Chrome, Safari, Edge, etc.) and go to the Clemson Ondemand site:  [Palmetto2](https://ondemand.rcd.clemson.edu)
 * Start an interactive apps>>Jupyter Notebook session.  Change these resource allocations: CPU=4, memory=64GB, Number of Hours=12. This will create a 12 hour interactive session and allow you to interface with the cluster. When you launch new sessions, you can change the resource allocation if necessary.
 * Once launched, open a terminal to interact with the cluster in the bash environment using a CLI.
 
 # Part 2: Trying out basic linux commands.
-Let’s download and uncompress the chromosome Y geneome assmbly for humans (Homo sapiens). On the command line type:
+Let’s download and uncompress the chromosome Y genome assembly for humans (Homo sapiens). On the command line type:
 
 ```
 wget https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.chromosome.Y.fa.gz
@@ -165,7 +165,7 @@ cd /scratch/<USERNAME>
 mkdir seqsquirt_project_2025-12-13
 ```
 
-Download and uncompress the sea squirt (Ciona intestinalis) genome file using the 'wget' command in this working directory.  Hee is the URL for the file:
+Download and uncompress the sea squirt (Ciona intestinalis) genome file using the 'wget' command in this working directory.  Here is the URL for the file:
 
 ```
 http://hgdownload.soe.ucsc.edu/goldenPath/ci3/bigZips/ci3.fa.gz

@@ -1,5 +1,3 @@
-# lab-intro-to-linux-on-palmetto2 
- 
 # Computational Assignment: Introduction to Linux and the Palmetto2 Cluster
 
 # Overview
@@ -23,10 +21,10 @@ vCompress/uncompress text files
 * Once launched, open a terminal to interact with the cluster in the bash environment using a CLI.
 
 # Part 2: Trying out basic linux commands.
-Let’s download and uncompress the sea squirt (Ciona intestinalis) genome file. On the command line type:
+Let’s download and uncompress the chromosome Y geneome assmbly for humans (Homo sapiens). On the command line type:
 
 ```
-wget http://hgdownload.soe.ucsc.edu/goldenPath/ci3/bigZips/ci3.fa.gz
+wget https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.chromosome.Y.fa.gz
 ```
 
 Note: This command might be displayed on multiple lines but should be entered as one line.
@@ -39,7 +37,7 @@ ls
 Uncompress the file with this command:
 
 ```
-gunzip ci3.fa.gz
+gunzip Homo_sapiens.GRCh38.dna.chromosome.Y.fa.gz
 # Note you can compress a file with the gzip command
 ```
 
@@ -93,14 +91,14 @@ NOTE: The angled brackets represent text that the user types. In this case any d
 ```
 cp <fileA> <fileB>
 #Example:
-cp ci3.fa seasquirt.fa
+cp Homo_sapiens.GRCh38.dna.chromosome.Y.fa human_chrY.fa
 ```
 
 # Rename or move files from one name or place to another. If fileB is an existing directory, move fileA into directory fileB:
 ```
 mv <fileA> <fileB>
 #Example: 
-mv ci3.fa ciona_genome.fa
+mv human_chrY.fa HomoSapiens.fa
 ```
 
 # Change directories:
@@ -178,7 +176,7 @@ Use a Linux command to look at the top and bottom of the file using the command 
 ```
 
 # Deliverables
-1. Submit your a text file that contains the first 10 and last 10 lines of the sea squirt genome sequence.
+1. Submit your a text file that contains the first 10 and last 10 lines of the sea qsuirt genome sequence.
 
 # Evaluation Criteria
 * Correct implementation of data retrieval from ENSEMBL (25%)
